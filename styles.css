@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+/****************************************** CLASSES ****************************************/
+/* NAvigation Bar */
+.navbar {
+  padding: 0 0 7% 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.topImage {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 25%;
+}
+
+.sectionOne {
+  background-color: #FF4C68;
+}
+
+.frase {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  padding-bottom: 4rem;
+}
+
+.container-fluid {
+  padding: 2% 15% 5%;
+}
+
+.btn {
+  font-weight: 500;
+  margin: 5% 3% 5% 0;
+}
+
+/****************************    Features Section     *********************/
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 10% 15%;
+}
+
+.featuresColumns {
+  line-height: 2;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.FeatureSectionIcons {
+  margin: 0.8rem auto;
+  font-size: 4.1rem;
+  color: #EF8172;
+}
+
+.FeatureSectionIcons:hover {
+  color: #FF4C68;
+}
+
+.featuresSectionHeadings {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+/* ******************************Testimoniaols ******************/
+#testimonials {
+  background-color: #FF4C68;
+  text-align: center;
+  color: white
+}
+
+.tesImage {
+  margin: 5% auto;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*************************  Press Section ********************/
+#press {
+  background-color: #FF4C68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pressImages {
+  width: 15%;
+  margin: 20px 20px 20px;
+}
+
+/**************************   PLANS SECTION **********************/
+#plans{
+  padding-bottom:5%;
+}
+
+.plansHeading {
+  text-align: center;
+  margin: 7% auto;
+}
+
+.cardCustom {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-deck {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/************************** DownLoad   *************************/
+#download{
+  margin: auto;
+  background-color: #FF4C68;
+text-align: center;
+padding: 6% 0 2% 0;
+color: white;
+}
+
+/************************************ FOOTER  ***********************/
+footer{
+  text-align: center;
+  background-color: white;
+  margin: 5% auto;
+}
+.copyr{
+  font-size: 0.8rem;
+}
+
+/************************** CSS @media functions ****************/
+@media (max-width:990px) {
+  .topImage {
+    margin: 4% auto;
+    position: static;
+    transform: none;
+  }
+#tittle{
+  text-align: center;;
+  }
+
+}
